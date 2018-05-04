@@ -1,9 +1,9 @@
 import { Injectable } from '@angular/core';
-import {LazyModule} from './lazy.module';
+// import {LazyModule} from './lazy.module';
 
 
 @Injectable({
-  providedIn: LazyModule
+  providedIn: 'root'
 }
 )
 export class LazyService {

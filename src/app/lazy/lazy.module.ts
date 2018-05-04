@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 
 import { LazyComponent } from './lazy.component';
 import { Routes, RouterModule } from '@angular/router';
-// import {LazyService} from './lazy.service';
 
 
 const routes: Routes = [
