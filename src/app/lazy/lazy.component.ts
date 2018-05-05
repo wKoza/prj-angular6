@@ -1,6 +1,5 @@
 import {Component, OnInit} from '@angular/core';
 import {LazyService} from './lazy.service';
-import {AnotherService} from './another.service';
 // import {AnotherService} from './another.service';
 
 
