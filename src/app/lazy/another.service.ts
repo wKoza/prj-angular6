@@ -1,16 +1,16 @@
 import {Injectable} from '@angular/core';
-import {MyModule} from './my.module';
+import {AnotherModule} from './another.module';
 
 @Injectable(
   {
-    providedIn: MyModule
+    providedIn: AnotherModule
   }
   /*  {useFactory: (myConfig: MyConfig) =>
         new HeroService(MyConfig, true),
     deps: [MyConfig],}*/
 )
-export class MyService {
+export class AnotherService {
 
-  constructor() { console.log('MyService'); }
+  constructor() { console.log('AnotherService'); }
 
 }

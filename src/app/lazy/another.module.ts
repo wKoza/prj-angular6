@@ -1,7 +1,12 @@
+
+
 import { NgModule } from '@angular/core';
 
+
+
+
 @NgModule({})
-export class MyModule {
+export class AnotherModule {
 
 
 }

@@ -7,9 +7,6 @@ import {Injectable} from '@angular/core';
 )
 export class EagerService {
 
-  test = 'toto';
-
-
   constructor() {
     console.log('EagerService');
   }

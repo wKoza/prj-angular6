@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 
 import { LazyComponent } from './lazy.component';
 import { Routes, RouterModule } from '@angular/router';
+import {AnotherModule} from './another.module';
 
 
 const routes: Routes = [
@@ -11,7 +12,8 @@ const routes: Routes = [
 
 @NgModule({
   imports: [
-   RouterModule.forChild(routes)
+   RouterModule.forChild(routes),
+   AnotherModule
   ],
   declarations: [LazyComponent],
   providers: []
